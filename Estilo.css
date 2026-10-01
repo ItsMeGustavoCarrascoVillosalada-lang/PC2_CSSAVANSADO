@@ -1,0 +1,99 @@
+body {
+  margin: 0px;
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 940px;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+.container h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.alert {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.alert-info {
+  background-color: rgba(210.2, 131.1, 210.9, 0.8235294118);
+  color: black;
+}
+
+.alert-success {
+  background-color: rgba(204.20625, 142.125, 112.29375, 0.8235294118);
+  color: white;
+}
+
+.alert-warning {
+  background-color: rgba(111.7375, 197.5125, 93.4875, 0.8235294118);
+  color: black;
+}
+
+.alert-danger {
+  background-color: rgba(195.72, 64.68, 87.6694736842, 0.8235294118);
+  color: white;
+  animation: danger-border 1s infinite alternate;
+}
+
+@keyframes danger-border {
+  from {
+    border: 3px solid rgba(116.82, 41.58, 54.78, 0.8235294118);
+  }
+  to {
+    border: 3px solid rgba(202.8675, 108.5325, 125.0825, 0.8235294118);
+  }
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.card {
+  width: 250px;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 0.4s;
+}
+.card p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card-1 {
+  font-size: 25px;
+  box-shadow: 0 6px 6px black;
+  background-color: rgb(138.9154639175, 127.0701030928, 229.7298969072);
+  color: black;
+}
+
+.card-2 {
+  font-size: 30px;
+  box-shadow: 0 12px 12px black;
+  background-color: rgb(169.8309278351, 161.1402061856, 236.4597938144);
+  color: black;
+}
+
+.card-3 {
+  font-size: 35px;
+  box-shadow: 0 18px 18px black;
+  background-color: rgb(200.7463917526, 195.2103092784, 243.1896907216);
+  color: white;
+}/*# sourceMappingURL=Estilo.css.map */
